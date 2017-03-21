@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String youtube = "src=\"https://www.youtube.com/embed/ovBSCbKopGY\"";
         String html = " <iframe " + width + " height=\"200\"" + youtube + " frameborder=\"0\" allowfullscreen></iframe>";
 
-        String videoHtml = "<iframe src=\"https://player.vimeo.com/video/37551417?title=0&byline=0&portrait=0\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen></iframe>";
+        String videoHtml = "<iframe src=\"https://player.vimeo.com/video/37551417\" width=\"300\" height=\"200\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 //        String youtube = "src=\"https://www.youtube.com/embed/ovBSCbKopGY\"";
 //        String html = " <iframe width=\"300\" height=\"200\"" + youtube + " frameborder=\"0\" allowfullscreen></iframe>";
